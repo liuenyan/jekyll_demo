@@ -1,12 +1,11 @@
 ---
 layout: default
-title: liuenyan's Blog
 ---
-
-<h2>{{ page.title }}</h2>
-<p>×îÐÂÎÄÕÂ</p>
-<ul>
-¡¡¡¡{% for post in site.posts %}
-¡¡¡¡¡¡¡¡<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-¡¡¡¡{% endfor %}
-</ul>
+<div id=content>
+  <h4>æœ€è¿‘æ–‡ç« </h4>
+  <ul>
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date:'%Y-%m-%d' }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

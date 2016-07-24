@@ -1,1 +1,12 @@
-base_url: jekyll_demo
+title: 古城童话
+description: >
+  古城童话的个人主页
+author: Enyan Liu
+bio: Life is short, I use Python.
+baseurl: /jekyll_demo
+safe: true
+lsi: false
+markdown: kramdown
+highlighter: rough
+source: .
+timezone: Asia/Shanghai

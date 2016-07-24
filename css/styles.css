@@ -1,0 +1,73 @@
+* {
+  font-family: "Helvetica Neue", "Luxi Sans", "Droid Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", sans-serif;
+  font-weight: normal;
+}
+
+header {
+  padding: 10px 0px;
+  border-bottom: #ddd 1px solid;
+}
+
+#navbar > a {
+  font-size: 16px;
+}
+
+#content {
+  margin: auto;
+  width: 75%;
+}
+
+#content > ul {
+  list-style-type: none;
+  line-height: 2.5em;
+}
+
+#content > ul > li > span {
+  margin: 20px;
+}
+
+footer {
+  margin 10px;
+  text-align: center;
+  border-top: #ddd 1px solid;
+}
+
+article {
+  margin: auto;
+  width: 75%;
+}
+
+.post-heading{
+  padding: 10px 0px;
+}
+
+.post-meta {
+  font-size: 90%;
+  color: #999;
+  margin 0;
+}
+
+a.post-category, a.post-tag{
+  color: #fff;
+  margin: 0 0.1em;
+  padding: 0.3em 0.5em;
+  font-size: 80%;
+  text-decoration: none;
+}
+a.post-category:hover, a.post-category:focus, a.post-tag:hover, a.post-tag:focus{
+  text-decoration: underline;
+}
+
+a.post-category{
+  background-color: #4d85d1;
+}
+
+a.post-tag {
+  background-color: #5aba59;
+}
+
+.post-content{
+  padding: 10px 0px;
+  color: #444;
+  line-height: 1.8em;
+}

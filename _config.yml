@@ -7,6 +7,6 @@ baseurl: /jekyll_demo
 safe: true
 lsi: false
 markdown: kramdown
-highlighter: rough
+highlighter: rouge
 source: .
 timezone: Asia/Shanghai

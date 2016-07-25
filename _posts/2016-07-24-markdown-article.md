@@ -7,12 +7,16 @@ tags: markdown blog
 
 这是一篇**Markdown**测试文章。
 
-```
+这是一段代码：
+
+```python
 def hello:
-    pass
+    print("Hello world!")
 ```
 
 ## 这是一个二级标题
+
+这是一个无序列表
 
 - 项目一
 - 项目二

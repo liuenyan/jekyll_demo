@@ -1,6 +1,13 @@
-* {
+h1, h2, h3, h4, h5, h6, p, div, a {
   font-family: "Helvetica Neue", "Luxi Sans", "Droid Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", sans-serif;
   font-weight: normal;
+}
+
+pre, code, pre tt {
+  font-family: Courier, "Courier New", monospace;
+  font-weight: normal;
+  padding: 0.75em;
+  border-radius: 3px;
 }
 
 header {

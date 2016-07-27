@@ -1,11 +1,11 @@
 <header>
-  <div class="pure-menu pure-menu-open pure-menu-horizontal" id="navbar">
-    <a href="{{ site.baseurl }}/" class="pure-menu-heading" title="{{ site.description }}">{{ site.title }}</a>
-    <ul>
-      <li class="pure-menu-selected"><a href="{{ site.baseurl }}/">主页</a></li>
+  <div class="pure-menu pure-menu-horizontal" id="navbar">
+    <a href="{{ site.baseurl }}/" class="pure-menu-heading pure-menu-link" title="{{ site.description }}">{{ site.title }}</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item"><a href="{{ site.baseurl }}/" class="pure-menu-link">主页</a></li>
       {% for page in site.pages %}
       {% if page.title %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      <li class="pure-menu-item"><a href="{{ site.baseurl }}{{ page.url }}" class="pure-menu-link">{{ page.title }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>

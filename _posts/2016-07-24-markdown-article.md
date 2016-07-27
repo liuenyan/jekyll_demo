@@ -14,6 +14,11 @@ def hello:
     print("Hello world!")
 ```
 
+{% highlight python %}
+def hello:
+    print("Hello world!")
+{% endhighlight %}
+
 ## 这是一个二级标题
 
 这是一个无序列表

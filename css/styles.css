@@ -6,13 +6,22 @@ h1, h2, h3, h4, h5, h6, p, div, a {
 pre, code, pre tt {
   font-family: Courier, "Courier New", monospace;
   font-weight: normal;
-  padding: 0.75em;
-  border-radius: 3px;
 }
 
 header {
   padding: 10px 0px;
   border-bottom: #ddd 1px solid;
+}
+
+footer {
+  margin 10px;
+  text-align: center;
+  border-top: #ddd 1px solid;
+}
+
+article {
+  margin: auto;
+  width: 75%;
 }
 
 #navbar > a {
@@ -33,18 +42,7 @@ header {
   margin: 20px;
 }
 
-footer {
-  margin 10px;
-  text-align: center;
-  border-top: #ddd 1px solid;
-}
-
-article {
-  margin: auto;
-  width: 75%;
-}
-
-.post-heading{
+.post-heading {
   padding: 10px 0px;
 }
 
@@ -54,26 +52,26 @@ article {
   margin 0;
 }
 
-a.post-category, a.post-tag{
-  color: #fff;
+a.post-category,
+a.post-tag {
   margin: 0 0.1em;
   padding: 0.3em 0.5em;
   font-size: 80%;
   text-decoration: none;
+  color: #fff;
 }
-a.post-category:hover, a.post-category:focus, a.post-tag:hover, a.post-tag:focus{
+
+a.post-category:hover,
+a.post-category:focus,
+a.post-tag:hover,
+a.post-tag:focus {
   text-decoration: underline;
 }
 
-a.post-category{
-  background-color: #4d85d1;
-}
+a.post-category { background-color: #4d85d1 }
+a.post-tag { background-color: #5aba59 }
 
-a.post-tag {
-  background-color: #5aba59;
-}
-
-.post-content{
+.post-content {
   padding: 10px 0px;
   color: #444;
   line-height: 1.8em;

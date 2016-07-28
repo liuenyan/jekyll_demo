@@ -4,9 +4,9 @@ description: >
 author: Enyan Liu
 bio: Life is short, I use Python.
 baseurl: /jekyll_demo
-safe: true
-lsi: false
 markdown: kramdown
 highlighter: rouge
-source: .
 timezone: Asia/Shanghai
+source: .
+safe: true
+lsi: false
